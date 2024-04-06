@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +9,8 @@
 
 :root{
     --fonte-principal: "Montserrat", sans-serif;
+    --cor-fundo: rgb(45, 0, 129);
+    --cor-shadow: rgb(26, 0, 75);
 }
 
 header, main{
@@ -20,6 +21,11 @@ header{
     background-image: linear-gradient(to right, rgb(89, 0, 255), rgb(0, 162, 255));
     position: relative;
 }
+
+body{
+    background-image: linear-gradient(to right, rgb(89, 0, 255), rgb(0, 162, 255)); 
+}
+
 .logotipo > h2{
     position: absolute;
     display: inline-block;
@@ -38,26 +44,57 @@ header{
 }
 main{
     position: relative;
-    background-image: linear-gradient(to right, rgb(89, 0, 255), rgb(0, 162, 255)); 
-    height: 98vh;
+    height: 150vh;
+    width: 50%;
+    margin: auto;
 }
+
+
 
 .texto-principal{
     display: inline-block;
-    padding-top: 25vh;
+    margin-top: 25vh;
     font-family: var(--fonte-principal);
     color: white;
     width: 40%;
+    max-width: 800px;
+    min-width: 100px;
+    margin-left: 13%;
 }
-
 
 
 .imagem-principal{
     position: absolute;
     display: inline-block;
-    width: 50%;
-    align-items: center;
+    padding: 30px;
+    margin-top: 20vh;
+    max-width: 800px;
+    min-width: 200px;
+
 }
 .imagem-principal > img{
-    width: 80%;
+ width: 70%;
+}
+
+.test1{
+   
+    background: url(../image/Gif/cat2.gif);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 50%;
+    height: 50%;
+}
+
+.fundo-poesia{
+    display: block;
+    background-color: var(--cor-fundo);
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    box-shadow: 5px 1px 10px var(--cor-shadow);
+}
+
+.fundo-poesia > code{
+    color: white;
 }
