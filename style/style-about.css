@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    
 }
 
 :root{
@@ -43,4 +44,41 @@ body{
 
 .linha-um > h2{
     font-size: 1em;
+}
+
+.sobre{
+    font-family: var(--fonte-principal);
+    font-size: 0.9em;
+    font-weight: 300;
+    text-align: justify;
+    padding-right: 200px;
+    padding-left: 0px;
+}
+
+/*Imagem de gato*/
+.img1{
+    margin-top: 20px;
+}
+.img1 > img{
+    display: block;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.img2{
+    background-image: url(../image/cats/cat2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#container-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 50px;
 }
