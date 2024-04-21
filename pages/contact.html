@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style-about.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contact</title>
+    <style>
+        #center{
+            text-align: center;
+        }
+
+        .backcat{
+            height: 40vh;
+            background: url(../image/cats/gato_celular.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        form{
+            color: white;
+            display: block;
+            padding: 120px;
+            background-color: rgba(0, 0, 0, 0.438);
+
+        }
+
+        .botoes-envio{
+            margin-top: 30px;
+        }
+
+        .botao{
+            color: white;
+            background-color: var(--cor-shadow);
+            border-color: var(--cor-shadow);
+            border-radius: 10%;
+            padding: 9px;
+        }
+        
+        .botao:hover{
+            cursor: pointer;
+            transition-duration: 0.5s;
+            background-color: white;
+            color: var(--cor-shadow);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <section class="logotipo">
+            <a href="../index.html"><img src="../image/Logo/logo.png" alt=""></a>
+            <h2><a href="../index.html" class="link-logo">Spering</a></h2>
+        </section>
+        <div class="menu">
+            <nav>
+                <ul type="none">
+                    <li><a class="bt-link" href="../pages/about.html" >About</a></li>
+                    <li><a class="bt-link" href="../pages/contact.html" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <p id="center">Get in touch right now and talk to us.</p> <br>
+    
+    <div class="backcat">
+        <form method="get" autocomplete="on">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="name" maxlength="50" required><br><br>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" maxlength="30" required>
+                <label for="itel">WhatsApp:</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel">
+            </p>
+            <p class="botoes-envio">
+                <input type="submit" value="Enviar" class="botao">
+                <input type="reset" value="Limpar" class="botao">
+            </p>
+        </form>
+    </div>
+
+    </main>
+</body>
+</html>
