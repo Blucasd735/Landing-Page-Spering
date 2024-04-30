@@ -9,6 +9,7 @@
 
 :root{
     --fonte-principal: "Montserrat", sans-serif;
+    --cor-principal: rgb(0, 162, 255);
     --cor-fundo: rgb(45, 0, 129);
     --cor-shadow: rgb(26, 0, 75);
 }
@@ -132,3 +133,15 @@ main{
     font-family: var(--fonte-principal);
 }
 
+/*Inicial imagens e sobre a empresa*/
+
+.img-inicial{
+    margin: auto;
+    background: url(../image/inicial/2151098330.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 20px 50px 40px var(--cor-shadow);
+    border-radius: 20px;
+    width: 40vw;
+    height: 50vh;
+}
