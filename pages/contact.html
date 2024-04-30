@@ -7,24 +7,17 @@
     <link rel="stylesheet" href="../style/style.css">
     <title>Contact</title>
     <style>
+        h1, p{
+            color: white;
+        }
         #center{
             text-align: center;
         }
-
-        .backcat{
-            height: 40vh;
-            background: url(../image/cats/gato_celular.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-        }
-
         form{
             color: white;
             display: block;
             padding: 120px;
-            background-color: rgba(0, 0, 0, 0.438);
-
+            
         }
 
         .botoes-envio{
@@ -45,7 +38,17 @@
             background-color: white;
             color: var(--cor-shadow);
         }
+        main{
+            height: 50vh;
+            background: url(../image/cats/gato_celular.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: inset black;
+            width: 40vw;
+        }
+
         
+      
     </style>
 </head>
 <body>
@@ -64,26 +67,25 @@
         </div>
     </header>
     <main>
-        <h1>Contact</h1>
-        <p id="center">Get in touch right now and talk to us.</p> <br>
-    
-    <div class="backcat">
-        <form method="get" autocomplete="on">
-            <p>
-                <label for="inome">Nome:</label>
-                <input type="text" name="nome" id="inome" autocomplete="name" maxlength="50" required><br><br>
-                <label for="iemail">E-mail:</label>
-                <input type="email" name="email" id="iemail" autocomplete="email" maxlength="30" required>
-                <label for="itel">WhatsApp:</label>
-                <input type="tel" name="tel" id="itel" required autocomplete="tel">
-            </p>
-            <p class="botoes-envio">
-                <input type="submit" value="Enviar" class="botao">
-                <input type="reset" value="Limpar" class="botao">
-            </p>
-        </form>
-    </div>
-
+            <h1>Contact</h1>
+            <p id="center">Get in touch right now and talk to us.</p> <br>
+                
+              
+            <form method="get" autocomplete="on">
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" autocomplete="name" maxlength="50" required><br><br>
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" maxlength="30" required>
+                    <label for="itel">WhatsApp:</label>
+                    <input type="number" name="tel" id="itel" min="0" max="9" required autocomplete="tel">
+                </p>
+                <p class="botoes-envio">
+                    <input type="submit" value="Enviar" class="botao">
+                    <input type="reset" value="Limpar" class="botao">
+                </p>
+            </form>
+                
     </main>
 </body>
 </html>
