@@ -106,7 +106,7 @@ main{
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 200px;
-    box-shadow: 5px 1px 10px var(--cor-shadow);
+   /* box-shadow: 5px 1px 10px var(--cor-shadow);*/
 }
 
 .fundo-poesia > code{
@@ -140,8 +140,45 @@ main{
     background: url(../image/inicial/2151098330.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 20px 50px 40px var(--cor-shadow);
+    box-shadow: 10px 10px 10px var(--cor-shadow);
     border-radius: 20px;
     width: 40vw;
     height: 50vh;
+}
+
+.fundo-inicial{
+    background-color: var(--cor-fundo);
+    border-radius: 20px;
+    padding-bottom: 130px;
+
+}
+
+#text-p{
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-weight: 300;
+    text-indent: 1em;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+}
+
+footer > p > a:hover{
+    color: var(--cor-shadow);
 }
