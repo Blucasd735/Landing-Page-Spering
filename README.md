@@ -14,4 +14,4 @@ Projeto possui possibilidades de novas funcionalidades com a introdução de jav
 
 ![image](https://github.com/Lucassti/Landing-Page-Spering/assets/60820690/a94a2d7c-831d-449f-bae8-8cc47e3473d5)
 
-Projeto pode ser acessado <a href="https://lucassti.github.io/Landing-Page-Spering/index.html">AQUI</a>
+Projeto pode ser acessado <a href="https://lucassti.github.io/Landing-Page-Spering/index.html" target="_blank">AQUI</a>
